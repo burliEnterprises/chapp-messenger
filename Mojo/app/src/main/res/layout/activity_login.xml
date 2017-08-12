@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context="com.mojo.com.LoginActivity" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="52"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_chat_black_48dp"
+            android:id="@+id/imageView2"
+            android:layout_weight="0.21" />
+
+        <TextView
+            android:text="CHAPP"
+            android:textColor="#000"
+            android:textSize="40sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:textAlignment="center"
+            android:textStyle="normal|bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#fff"
+        android:layout_marginLeft="@dimen/abstand_login_form"
+        android:layout_marginRight="@dimen/abstand_login_form"
+        android:layout_weight="38"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:paddingRight="@dimen/abstand_login_form"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:paddingLeft="@dimen/abstand_login_form"
+            android:layout_height="0dp"
+            android:layout_weight="67">
+
+            <TextView
+            android:text="E-MAIL-ADRESSE "
+            android:textColor="#cab2b2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:textSize="10sp"
+            android:textStyle="normal|bold" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/et_mail"
+                android:layout_weight="1"
+                android:textSize="12sp"
+                android:layout_above="@+id/textView3"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:text="PASSWORT "
+                android:textColor="#cab2b2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3"
+                android:textSize="10sp"
+                android:textStyle="normal|bold"
+                android:layout_above="@+id/et_password"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/et_password"
+                android:layout_weight="1"
+                android:textSize="12sp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:inputType="textPassword" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:paddingRight="@dimen/abstand_login_form"
+            android:paddingLeft="@dimen/abstand_login_form"
+            android:gravity="center"
+            android:background="#ffbdb8"
+            android:layout_weight="33"
+            android:id="@+id/ll_login">
+
+            <TextView
+                android:text="LOGIN "
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/tv_login"
+                android:textColor="#000"
+                android:layout_weight="1.00"
+                android:textAlignment="viewStart"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:textStyle="normal|bold" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_trending_flat_black_24dp"
+                android:id="@+id/imageView"
+                android:layout_weight="0.72" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10">
+
+        <TextView
+            android:text="Noch keinen Account? "
+            android:layout_width="wrap_content"
+            android:textColor="#fff"
+            android:layout_height="match_parent"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_weight="1.00"
+            android:textAlignment="viewEnd"
+            android:layout_alignParentStart="true"
+            android:gravity="center"
+            android:textSize="12sp" />
+
+        <TextView
+            android:text="Erstelle einen."
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tv_createAccount"
+            android:textColor="#fff"
+            android:layout_weight="1.00"
+            android:textAlignment="viewStart"
+            android:textStyle="normal|bold"
+            android:gravity="center"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+</LinearLayout>

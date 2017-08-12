@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Chapp</string>
+    <string name="MY_SHARED_PREFS">Chapp_Prefs</string>
+</resources>
