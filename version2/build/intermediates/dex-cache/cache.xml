@@ -3,39 +3,462 @@
 
     <item
         is-multidex="true"
-        jar="D:\AndroidStudio-Datas\github_temp\Messenger-Android-XML-Template\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
+        jar="C:\Users\Matteo\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="7febf6adbcabacb2dffb8c548b4b30158bb62ca5">
-        <dex dex="D:\AndroidStudio-Datas\github_temp\Messenger-Android-XML-Template\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_bccfa44560a18e319871ce15b048ae74d8ff87b5\classes.dex" />
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-tasks-1.4.0_8654813aa0be26570b6966cafed5d47f0fa6af60\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="E:\Programme\AndroidSDK\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
-        jumboMode="true"
+        jar="C:\Users\Matteo\.android\build-cache\2b51da8ce8c2c748323cd55d92578b20c991ed38\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="D:\AndroidStudio-Datas\github_temp\Messenger-Android-XML-Template\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_d9a9f7e01170c898824b79dc673ff21f5b5e63d0\classes.dex" />
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_100f9134e954ea12b19060b41379af7e9e85f1c1\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\AndroidStudio-Datas\github_temp\Messenger-Android-XML-Template\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
+        jar="C:\Users\Matteo\.android\build-cache\6e16436c0e209b2995d29ff1f86667813edecc00\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="D:\AndroidStudio-Datas\github_temp\Messenger-Android-XML-Template\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_14fe2018780b80fbf3ca263dccaa4692e4c471a0\classes.dex" />
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_016b0f03bcd6dab4dc26f607ee861b361a2c8d52\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matteo\.android\build-cache\23588b5eec41a09d08c097e397bb0fe15f17fb4e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_980542faf88e53afd25a93f80a536425581d45df\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matteo\.android\build-cache\01609f73b6e9502c3fe4203e853200239c2f501a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="51518e8e8f97c314a243d9def0ded91d385b6a1e">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4bd2db9f3f51fd727a369b612084903768a5de35\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matteo\.android\build-cache\613f263c043a0139885c9701415337d074e0bc78\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1f4bb2577a30d0b3268fed038ed59230709ad593">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0baeca81f58fadc3393c4728f99111c5da636127\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matteo\.android\build-cache\c55ce0fce107dd0e124cfe14d3ecb423ad2fbf4b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8ac09931704b91e7b4d281f5e34b3b006b628c22">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_303bb0b6fa7b7fc7e0f99ee456aa9d535ced63a4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matteo\.android\build-cache\0bb8fad1ae13143c589a15585f090bd0d7a6ad54\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5e651c1430cc9b8a3b3b5a9d92bb173214dfdf42">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_536234fe1d1a523598a85dad8589416ef1b882be\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matteo\.android\build-cache\fd514fbad177518abbf99b31c67f9fcc40bf2bfe\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_be0402146dac8e7fe3485271fa98383078627de6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matteo\.android\build-cache\253cbba8b17a96e9a3a3ae5768c10035220a6e22\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0ef21408e3142ffbfbd4a7ec1762c3325c6c386c">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a28a3d068ea188bcc1d521be62c5904f00b97e2a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matteo\.android\build-cache\6a74851a7691abea8f3510a6a6962bf7e857e0ca\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f38aaaa351389cb3c05ca550e5d88224897bf0df\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matteo\.android\build-cache\bea5a24890dc9b058a8e50a71c05f2de3b448c7b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="32f45bd44a3e7efc235bbfed120029290f5d674a">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_57167ee2098c23f71273f3be4870188c6997cb0b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matteo\.android\build-cache\6a6d2506d89970c368724557c2b4a888f34b0ddd\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1c725d3f2a1ba4540dffd892ec24acd0a66e01bd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matteo\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\2.0.1\516c03b21d50a644d538de0f0369c620989cd8f0\jsr305-2.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\jsr305-2.0.1_b526f19670cb80f1b3a71ba7b83d0d826c8aed08\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matteo\.android\build-cache\6448696a9ddabfe2347cbaa3c88015469aa19291\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1b06967f6f8f4669fc67c27523298b57ac1a0052\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matteo\.android\build-cache\f2f9584538fccc4c51b69d76a5ce6c95d715595f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_85cdc1c30301ce16c1ea23462c4521123edf443f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matteo\.android\build-cache\fb94d0c74f66a654ec263dc6fdcd75af83daaddf\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c5e4deb8b45621bcd8329a1bc49a961910420ff4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matteo\.android\build-cache\2f9fd991e3531f73ad190d7243c7762eaef6d1bf\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2ff912236893c87b8812aff9bb5c95473057c0dd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matteo\.android\build-cache\48627b9d6042c8101fe41c7ef4591f793a2c7f79\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_caee3d830d2ba3933e10c85cb8c3c228a2ddb669\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matteo\.android\build-cache\e5ca7ef871b74e239fad45a7ff5ff2ff612434d6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="79c3d4a8ca3c04c5fd5a4a72d43a29fe6d3667b4">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a00b9a3fc1d56ed05922288e7dcf5afb1f0c8b35\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matteo\.android\build-cache\8e42684a4003d4b67e5cf6da0d777d8d2c43e4df\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f480a9865de68fa6277556641b3957e318a556d4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matteo\.android\build-cache\ca12f7e5dfcfdd9f04f69e4817d3576e6fc534d4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7f2420506110902f033406b25697cf97ee8c38b2">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9345aac8f5b4aea8acc57b61f99e88d78bb74d39\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matteo\.android\build-cache\ea130a571acb10977b1bce5b78fe43967e6fd545\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="42a3ae86dd3ae2876d3e95c2e6e104ae57a50a65">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7101425e28764cb8d6a7de88426e2d1adeeb1396\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matteo\.android\build-cache\f38ce84d69b13fb08b3898b1023dec23fe465ee2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f671e3a783229d0f7559a465bc342da4bc614db7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matteo\.android\build-cache\99add06597c23edd14d722c1ac6489472f39d8f4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a3b03a9fcfb5bfd7bbf858584ee47b553f4f65d2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matteo\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.7.0_cd7fa1902bf9798ef23f78638306f26d1a587dab\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matteo\.android\build-cache\19eae37e93367c31fab5819056cf14bb30c08ffa\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_34605001a9f927e86596a8d55ab42acfd9a1112c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matteo\.android\build-cache\699c622ae027561ea5c3a8d4f840de0c588907e4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e84a54b1c1887e89d266cf9364c4108ca74e61d5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matteo\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.2\ccde00f7ccc77af5a6d5752e2cb21f6d8998289f\okhttp-3.4.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ccde00f7ccc77af5a6d5752e2cb21f6d8998289f">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.4.2_56a138523700e319b69b191c5520d339c7234af1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matteo\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.9.0_84c3e9618b87ea0c6ce635e42f6e287390ed8e44\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matteo\.android\build-cache\ac89f452da3a709d274f31a1b183c54b5b402ddb\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_01223ed7751e18c2fe45c5da8719152e634fbe1a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matteo\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-applinks-1.4.0_d47c82762ec8139c225fbc520d5fb05644331204\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matteo\.android\build-cache\e643983d8c89053c1dcc0ad93ce6ccce3ef391c2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="16226703bab55ec42457666213cd3503799d36a8">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bf2df872676daa127ddebe180df4e376aa032a67\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Programme\AndroidSDK\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.0_5a2d65748ce246c53100f72a4016e20e99062bed\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matteo\.gradle\caches\modules-2\files-2.1\commons-cli\commons-cli\1.2\2bf96b7aa8b611c177d329452af1dc933e14501c\commons-cli-1.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2bf96b7aa8b611c177d329452af1dc933e14501c">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\commons-cli-1.2_680522722ebd7e2e5012e161fc3250b6acccbeac\classes.dex" />
     </item>
     <item
         is-multidex="true"
         jar="C:\Users\Matteo\.android\build-cache\affc400b02431aec7a4f57a400fbba5cf127a46c\output\jars\classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="D:\AndroidStudio-Datas\github_temp\Messenger-Android-XML-Template\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2b3861846aa7e2b9593cc428cc9fee3205eb7438\classes.dex" />
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2b3861846aa7e2b9593cc428cc9fee3205eb7438\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matteo\.android\build-cache\86b741db1f2b53f8c6adc9ce51b1d7b3a23687d3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="de2c50f4a24277d22d675d598640da6d4622b14d">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4fe14d37f1ba6308b9aa896ea20c5fc62b42ccf2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matteo\.android\build-cache\976e6ceb0042cdb152a1abf29d250595e079af0d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ebcb0bcf52fab7c586f39717f7cb8de91748b1b1">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_69f9eb684f9baec5222aecada0ec63414deb88ff\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matteo\.android\build-cache\883336e737816d068571c7c57958d7f9943121b2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6220520b4c5d8b963cc354eab034394acf587212\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matteo\.android\build-cache\c7cf68a3e4ce5f9d3d386fcd6ba9bc2ccf7fcaf1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ebf985be182798e6322fee8fe437b14ee6bb8609">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_531c287c65f1f7c8a4c2a5edc63b9b7e8410c8d6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matteo\.android\build-cache\760b7a3487c4235c736e9656997b5a292f34a945\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_aa65129283faae5ab44586cb98d5fc84ad97b0f8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matteo\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_5f0460275134b6f1b2c00233add1e7d95661d5f4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matteo\.android\build-cache\ea1c5f96245672edd6fe08f2edac80f82c384bee\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2d1eaa9e0b98f8fc4c2b989d9b30d4f1480648ac">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_73bd82fd266379eeef4c869e9703f37a7fab9cf9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matteo\.android\build-cache\a9a5884ca956c547635fe339e0250166a20972ea\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ec06ae399207271a49a9ca45c1166f2bbafd8192\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Programme\AndroidSDK\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_d9a9f7e01170c898824b79dc673ff21f5b5e63d0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matteo\.android\build-cache\9b51d28c20bb50835ebcdd88c9fc8575b1634ee3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_71d71ffe9ffc7740e0764232bf2a8a564e3adaa2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matteo\.gradle\caches\modules-2\files-2.1\com.googlecode.libphonenumber\libphonenumber\7.1.1\cdb737e7932c39026fb5d061c5300370d9a4ce8\libphonenumber-7.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0cdb737e7932c39026fb5d061c5300370d9a4ce8">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\libphonenumber-7.1.1_92d625b888e95d5b1b9000c3a311ba7aea0d7e1e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matteo\.android\build-cache\564ced13cf0a2bd99159d3f3b2abacaea7dc264e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3c433e48557e476290f45fb6cb568d1a103c9978">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ceb7ad95d1c23acf60ba766c112395ba96124c70\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matteo\.android\build-cache\3637a72f0949251a12653f173c6b15bbb80c7b02\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_03452ac55d47ceb1d3cd5f83ec2c72ee71844a89\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matteo\.android\build-cache\084ab7320690afc13d31ee0935d0f16d532cc75f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_052da0817774ece66acd89a7c23347e85a2e057e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matteo\.android\build-cache\730bc3ec698b67304f24a21b7b5b5f585cbbf9ef\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\chapp-messenger\version2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_35e73a4593bada288183745f15e34e0dd2265bb0\classes.dex" />
     </item>
 
 </items>

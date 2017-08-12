@@ -75,6 +75,7 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:inputType="textEmailAddress"
+                android:textColor="@color/colorAccent"
                 android:textSize="14sp" />
 
             <TextView
