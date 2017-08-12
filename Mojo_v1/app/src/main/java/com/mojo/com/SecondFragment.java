@@ -103,6 +103,8 @@ public class SecondFragment extends Fragment {
 
 
         // 1. alle kontakte in dem user db werden hgeholt
+
+        /*
         databaseReference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
@@ -146,7 +148,7 @@ public class SecondFragment extends Fragment {
                         set_final_usernames.add(y);
                 };
 
-                 */
+
                 arraylist_contacts.clear();
                 arraylist_contacts.addAll(set_final_usernames);
                 adapter_contacts.notifyDataSetChanged();
@@ -156,7 +158,7 @@ public class SecondFragment extends Fragment {
                 // Failed to read value
                 Log.w("Hello", "Failed to read value.", error.toException());
             }
-        });
+        }); */
 
 
         // aufruf eines chatrooms

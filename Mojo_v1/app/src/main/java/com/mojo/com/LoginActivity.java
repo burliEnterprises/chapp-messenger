@@ -43,10 +43,10 @@ public class LoginActivity extends AppCompatActivity {
         ll_login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                contactPermisson();
-                while (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M && checkSelfPermission(android.Manifest.permission.READ_CONTACTS) != PackageManager.PERMISSION_GRANTED) {
-                };
-                LoginVersuch();
+            contactPermisson();
+            while (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M && checkSelfPermission(android.Manifest.permission.READ_CONTACTS) != PackageManager.PERMISSION_GRANTED) {
+            };
+            LoginVersuch();
             }
         });
 
