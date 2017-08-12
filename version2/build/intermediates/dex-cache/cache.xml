@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudio-Datas\github_temp\Messenger-Android-XML-Template\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7febf6adbcabacb2dffb8c548b4b30158bb62ca5">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\Messenger-Android-XML-Template\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_bccfa44560a18e319871ce15b048ae74d8ff87b5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Programme\AndroidSDK\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\Messenger-Android-XML-Template\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_d9a9f7e01170c898824b79dc673ff21f5b5e63d0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudio-Datas\github_temp\Messenger-Android-XML-Template\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\Messenger-Android-XML-Template\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_14fe2018780b80fbf3ca263dccaa4692e4c471a0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matteo\.android\build-cache\affc400b02431aec7a4f57a400fbba5cf127a46c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="D:\AndroidStudio-Datas\github_temp\Messenger-Android-XML-Template\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2b3861846aa7e2b9593cc428cc9fee3205eb7438\classes.dex" />
+    </item>
+
+</items>

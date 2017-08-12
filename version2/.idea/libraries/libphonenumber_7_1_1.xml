@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="libphonenumber-7.1.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.googlecode.libphonenumber/libphonenumber/7.1.1/cdb737e7932c39026fb5d061c5300370d9a4ce8/libphonenumber-7.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.googlecode.libphonenumber/libphonenumber/7.1.1/7d81ca0b0df1d487064d118626ed3b874cee5a8b/libphonenumber-7.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

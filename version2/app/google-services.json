@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "388034070940",
+    "firebase_url": "https://chapp-52250.firebaseio.com",
+    "project_id": "chapp-52250",
+    "storage_bucket": "chapp-52250.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388034070940:android:f16fa77335e61cf5",
+        "android_client_info": {
+          "package_name": "com.mojo.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "388034070940-t77phmjh7ibl24kqb00t99li9950nc94.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mojo.com",
+            "certificate_hash": "18fe79240e81159228e8de9854b86ad1bccd0a0d"
+          }
+        },
+        {
+          "client_id": "388034070940-639v1vhdlefhi4bnsdhiqcn4dbakpcqh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDues4sPnEdmoThLMoa3ulVIfSB2WtHgBQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "388034070940-639v1vhdlefhi4bnsdhiqcn4dbakpcqh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
