@@ -31,7 +31,7 @@ public class Splash extends AppCompatActivity {
                 startActivity(new Intent(Splash.this, LoginActivity.class));
                 finish();
             }
-        }, 5*1000);
+        }, 3*1000);
     }
     private void changeStatusBarColor() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {

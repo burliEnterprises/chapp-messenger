@@ -1,6 +1,7 @@
 package com.mojo.com;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Typeface;
 import android.os.Build;
@@ -12,10 +13,15 @@ import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
+
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 import com.google.firebase.database.DatabaseReference;
 
@@ -24,6 +30,7 @@ import java.util.ArrayList;
 
 public class MainActivity extends BaseActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
     TextView chats, nav_headerUserName;
     NavigationView navigationView, navigationViewBottom;
     DrawerLayout drawer;
@@ -32,13 +39,15 @@ public class MainActivity extends BaseActivity
     private ArrayAdapter<String> adapter_raeume;
     private DatabaseReference databaseReference, dbr_chatrooms, dbr_users;
     private String username, name, email, telefonnummer;
+    private FirebaseAuth firebaseAuth;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        setupToolbar(R.id.toolbar, "Messages");
+        setupToolbar(R.id.toolbar, "Chatrooms");
 
         FragmentTransaction ft;
         FragmentHome fragmentHome = new FragmentHome();
@@ -51,16 +60,20 @@ public class MainActivity extends BaseActivity
         drawer.setDrawerListener(toggle);
         toggle.syncState();
 
+        firebaseAuth = FirebaseAuth.getInstance();
+
         // hole menu und setzt listener und werte:
         navigationView = (NavigationView) findViewById(R.id.nav_view);
 
         // schreibe username in header feld
         prefs = this.getSharedPreferences("CHAPP_PREFS", Context.MODE_PRIVATE);
         username = prefs.getString("username", "");
-        nav_headerUserName = (TextView) findViewById(R.id.nav_headerUserName);
-        nav_headerUserName.setText(username.toString());
 
         navigationView.setNavigationItemSelectedListener(this);
+
+        View inflatedView = getLayoutInflater().inflate(R.layout.nav_header_main, null);
+        TextView text = (TextView) inflatedView.findViewById(R.id.nav_headerUserName);
+        text.setText(username.toString());
 
         // menu punkte settings und logout
         navigationViewBottom = (NavigationView) findViewById(R.id.nav_view_bottom);
@@ -129,6 +142,8 @@ public class MainActivity extends BaseActivity
         } else if (id == R.id.nav_trash) {
         } else if (id == R.id.nav_settings) {
         } else if (id == R.id.nav_logout) {
+            firebaseAuth.signOut();
+            startActivity(new Intent(MainActivity.this, LoginActivity.class));
         }
 
         drawer.closeDrawer(GravityCompat.START);
