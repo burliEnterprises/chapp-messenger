@@ -6,7 +6,7 @@ import android.support.annotation.DrawableRes;
  * Created by Dytstudio.
  */
 
-public class Contact {
+public class Chatroom {
     String name;
     int image;
 

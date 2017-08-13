@@ -1,5 +1,7 @@
 package com.mojo.com;
 
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.graphics.Typeface;
 import android.os.Build;
 import android.os.Bundle;
@@ -12,15 +14,25 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ArrayAdapter;
 import android.widget.TextView;
-import com.mojo.com.R;
+
+import com.google.firebase.database.DatabaseReference;
+
+import java.util.ArrayList;
 
 
 public class MainActivity extends BaseActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-    TextView chats;
+    TextView chats, nav_headerUserName;
     NavigationView navigationView, navigationViewBottom;
     DrawerLayout drawer;
+    private SharedPreferences prefs;
+    private ArrayList<String> arraylist_raeume;
+    private ArrayAdapter<String> adapter_raeume;
+    private DatabaseReference databaseReference, dbr_chatrooms, dbr_users;
+    private String username, name, email, telefonnummer;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,13 +51,23 @@ public class MainActivity extends BaseActivity
         drawer.setDrawerListener(toggle);
         toggle.syncState();
 
+        // hole menu und setzt listener und werte:
         navigationView = (NavigationView) findViewById(R.id.nav_view);
+
+        // schreibe username in header feld
+        prefs = this.getSharedPreferences("CHAPP_PREFS", Context.MODE_PRIVATE);
+        username = prefs.getString("username", "");
+        nav_headerUserName = (TextView) findViewById(R.id.nav_headerUserName);
+        nav_headerUserName.setText(username.toString());
+
         navigationView.setNavigationItemSelectedListener(this);
 
+        // menu punkte settings und logout
         navigationViewBottom = (NavigationView) findViewById(R.id.nav_view_bottom);
         navigationViewBottom.setNavigationItemSelectedListener(this);
 
 
+        // schreibt 99+ neben chats menu titel
         chats =(TextView) MenuItemCompat.getActionView(navigationView.getMenu().
                 findItem(R.id.nav_chats));
         initializeCountDrawer();
@@ -96,8 +118,8 @@ public class MainActivity extends BaseActivity
         FragmentTransaction ft;
         int id = item.getItemId();
 
-        if (id == R.id.nav_contacts) {
-            FragmentContacts fragmentContacts = new FragmentContacts();
+        if (id == R.id.nav_chatrooms) {
+            FragmentChatrooms fragmentContacts = new FragmentChatrooms();
             ft = getSupportFragmentManager().beginTransaction();
             ft.replace(R.id.frameLayout, fragmentContacts).addToBackStack(null).commit();
         } else if (id == R.id.nav_chats) {

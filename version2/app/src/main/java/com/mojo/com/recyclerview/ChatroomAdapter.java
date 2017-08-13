@@ -18,15 +18,15 @@ import java.util.List;
  * Created by Dytstudio.
  */
 
-public class ContactAdapter extends SelectableAdapter<ContactAdapter.ViewHolder> {
+public class ChatroomAdapter extends SelectableAdapter<ChatroomAdapter.ViewHolder> {
 
-    private List<Contact> mArrayList;
+    private List<Chatroom> mArrayList;
     private Context mContext;
-    private ContactAdapter.ViewHolder.ClickListener clickListener;
+    private ChatroomAdapter.ViewHolder.ClickListener clickListener;
 
 
 
-    public ContactAdapter (Context context, List<Contact> arrayList,ContactAdapter.ViewHolder.ClickListener clickListener) {
+    public ChatroomAdapter(Context context, List<Chatroom> arrayList, ChatroomAdapter.ViewHolder.ClickListener clickListener) {
         this.mArrayList = arrayList;
         this.mContext = context;
         this.clickListener = clickListener;
@@ -35,19 +35,19 @@ public class ContactAdapter extends SelectableAdapter<ContactAdapter.ViewHolder>
 
     // Create new views
     @Override
-    public ContactAdapter.ViewHolder onCreateViewHolder(ViewGroup parent,
-                                                     int viewType) {
+    public ChatroomAdapter.ViewHolder onCreateViewHolder(ViewGroup parent,
+                                                         int viewType) {
 
         View itemLayoutView = LayoutInflater.from(parent.getContext()).inflate(
                 R.layout.list_item_contact, null);
 
-        ContactAdapter.ViewHolder viewHolder = new ContactAdapter.ViewHolder(itemLayoutView,clickListener);
+        ChatroomAdapter.ViewHolder viewHolder = new ChatroomAdapter.ViewHolder(itemLayoutView,clickListener);
 
         return viewHolder;
     }
 
     @Override
-    public void onBindViewHolder(ContactAdapter.ViewHolder viewHolder, int position) {
+    public void onBindViewHolder(ChatroomAdapter.ViewHolder viewHolder, int position) {
 
         viewHolder.tvName.setText(mArrayList.get(position).getName());
         viewHolder.userPhoto.setImageResource(mArrayList.get(position).getImage());
@@ -62,11 +62,11 @@ public class ContactAdapter extends SelectableAdapter<ContactAdapter.ViewHolder>
 
         public TextView tvName;
         public ImageView userPhoto;
-        private ContactAdapter.ViewHolder.ClickListener listener;
+        private ChatroomAdapter.ViewHolder.ClickListener listener;
         //private final View selectedOverlay;
 
 
-        public ViewHolder(View itemLayoutView,ContactAdapter.ViewHolder.ClickListener listener) {
+        public ViewHolder(View itemLayoutView,ChatroomAdapter.ViewHolder.ClickListener listener) {
             super(itemLayoutView);
 
             this.listener = listener;
